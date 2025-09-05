@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="DeviceManage">
+      <UniqueIdentifier>{987deb79-96ef-4ec5-9b67-15b91100b724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeviceManage\Header Files">
+      <UniqueIdentifier>{b620bce9-c28c-48b8-911d-1801d55a99b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeviceManage\Source Files">
+      <UniqueIdentifier>{aa1b66d5-dae2-4ffb-abf2-8a6511a2afa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Parsers">
+      <UniqueIdentifier>{50295104-240f-4080-85e8-e3f9c531afb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Parsers\Header Files">
+      <UniqueIdentifier>{3c5ac8f1-4317-430c-8952-15b5d09e3b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Parsers\Source Files">
+      <UniqueIdentifier>{f3802026-5e72-4c18-a2e9-35fa93afa69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{d6668531-76c1-4cc4-bb19-89a3f106403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage\Header Files">
+      <UniqueIdentifier>{084e20f4-b3a4-494c-beca-f0bad1d7cecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage\Source Files">
+      <UniqueIdentifier>{a4bb8646-a679-4dd4-9fe6-682e2ab44177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolForwarder">
+      <UniqueIdentifier>{a1183b35-d1b0-4f8e-8cd6-38ac7eda3fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolForwarder\Header Files">
+      <UniqueIdentifier>{b0fab540-15d0-4929-95b7-31056fb05621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolForwarder\Source Files">
+      <UniqueIdentifier>{07095417-4aed-4ab2-8440-a8b275ca8b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatformIO">
+      <UniqueIdentifier>{7e0076fa-34a6-4fb2-942c-25c2f90c0c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatformIO\Header Files">
+      <UniqueIdentifier>{62354bb6-e92f-441a-9de1-b2e50279216e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatformIO\Resource Files">
+      <UniqueIdentifier>{97a72898-8c43-42df-8898-d98ff0dcacb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcessigServer">
+      <UniqueIdentifier>{e531c194-087d-418d-a12e-f0111d3edb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSender">
+      <UniqueIdentifier>{2d29d04b-4f66-438e-9bb8-f0f3ec5a7af7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceFactory.cpp">
+      <Filter>DeviceManage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeidouParser.cpp">
+      <Filter>Data Parsers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserFactory.cpp">
+      <Filter>Data Parsers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SatcomPDXPParser.cpp">
+      <Filter>Data Parsers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeidouStorage.cpp">
+      <Filter>Storage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageRouter.cpp">
+      <Filter>Storage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolForwarder.cpp">
+      <Filter>ProtocolForwarder\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxSerialIO.cpp">
+      <Filter>PlatformIO\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinuxUdpIO.cpp">
+      <Filter>PlatformIO\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EthernetDevice.cpp">
+      <Filter>DeviceManage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProcessingServer.cpp">
+      <Filter>DataProcessigServer</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialDevice.cpp">
+      <Filter>DeviceManage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeidouDataGenerator.cpp">
+      <Filter>DataSender</Filter>
+    </ClCompile>
+    <ClCompile Include="BeidouDataSender.cpp">
+      <Filter>DataSender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceBase.h">
+      <Filter>DeviceManage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceFactory.h">
+      <Filter>DeviceManage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFactory.h">
+      <Filter>Data Parsers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeidouParser.h">
+      <Filter>Data Parsers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolParser.h">
+      <Filter>Data Parsers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatcomPDXPParser.h">
+      <Filter>Data Parsers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeidouStorage.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageRouter.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolForwarder.h">
+      <Filter>ProtocolForwarder\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformIO.h">
+      <Filter>PlatformIO\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceTypes.h">
+      <Filter>DeviceManage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EthernetDevice.h">
+      <Filter>DeviceManage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProcessingServer.h">
+      <Filter>DataProcessigServer</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialDevice.h">
+      <Filter>DeviceManage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeidouDataGenerator.h">
+      <Filter>DataSender</Filter>
+    </ClInclude>
+    <ClInclude Include="BeidouDataSender.h">
+      <Filter>DataSender</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LinuxUdpIO.h">
+      <Filter>PlatformIO\Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LinuxSerialIO.h">
+      <Filter>PlatformIO\Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
