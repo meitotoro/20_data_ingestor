@@ -1,0 +1,7 @@
+﻿   Qt/MSBuild: 3.4.1.0
+  Reading Qt configuration (C:/qt/5.15.2/msvc2019_64/bin/qmake)
+   Qt: 5.15.2
+  main.cpp
+  DataMonitor.vcxproj -> D:\c++projects\DataMonitor\x64\Debug\DataMonitor.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
