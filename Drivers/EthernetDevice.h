@@ -3,6 +3,7 @@
 #include "DeviceBase.h"
 #include "LinuxSerialIO.h"
 #include "LinuxUdpIO.h"
+#include "WindowsUdpIO.h"
 #include <thread>
 #include <atomic>
 #include <functional>
@@ -23,7 +24,7 @@ private:
     void readLoop();
 
 private:
-    std::unique_ptr<LinuxUdpIO> io_;
+    std::unique_ptr<WindowsUdpIO> io_;
     std::unique_ptr<std::thread> thread_;
     bool stop_flag_;
 

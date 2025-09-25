@@ -1,8 +1,10 @@
 ﻿   Qt/MSBuild: 3.4.1.0
   Reading Qt configuration (C:/qt/5.15.2/msvc2019_64/bin/qmake)
    Qt: 5.15.2
-  BeidouDataGenerator.cpp
-  main.cpp
+  DeviceFactory.cpp
+  EthernetDevice.cpp
+  WindowsUdpIO.cpp
+  moc_WindowsUdpIO.cpp
   Drivers.vcxproj -> D:\c++projects\Drivers\x64\Debug\Drivers.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

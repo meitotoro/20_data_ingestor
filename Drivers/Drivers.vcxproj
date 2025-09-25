@@ -63,6 +63,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\c++projects\Drivers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\c++projects\Drivers\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libpq.lib;pqxx.lib;ws2_32.lib;wsock32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -92,8 +102,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BeidouDataGenerator.cpp" />
-    <ClCompile Include="BeidouDataSender.cpp" />
     <ClCompile Include="BeidouParser.cpp" />
     <ClCompile Include="BeidouStorage.cpp" />
     <ClCompile Include="DataProcessingServer.cpp" />
@@ -107,10 +115,9 @@
     <ClCompile Include="SatcomPDXPParser.cpp" />
     <ClCompile Include="SerialDevice.cpp" />
     <ClCompile Include="StorageRouter.cpp" />
+    <ClCompile Include="WindowsUdpIO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BeidouDataGenerator.h" />
-    <ClInclude Include="BeidouDataSender.h" />
     <ClInclude Include="BeidouStorage.h" />
     <ClInclude Include="DataProcessingServer.h" />
     <ClInclude Include="DataStorage.h" />
@@ -118,6 +125,7 @@
     <ClInclude Include="BeidouParser.h" />
     <ClInclude Include="CommonTypes.h" />
     <ClInclude Include="DeviceFactory.h" />
+    <QtMoc Include="WindowsUdpIO.h" />
     <QtMoc Include="LinuxSerialIO.h" />
     <QtMoc Include="LinuxUdpIO.h" />
     <ClInclude Include="DeviceTypes.h" />

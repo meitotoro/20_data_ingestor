@@ -3,7 +3,7 @@
 
 EthernetDevice::EthernetDevice(const DeviceConfig& config) : DeviceBase(config), thread_(nullptr),stop_flag_(false) {
 	// 视频通常使用UDP
-	io_ = std::make_unique<LinuxUdpIO>(config.name, config.ipAddress, config.port);
+	io_ = std::make_unique<WindowsUdpIO>(config.name, config.ipAddress, config.port,nullptr);
 }
 
 bool EthernetDevice::start()

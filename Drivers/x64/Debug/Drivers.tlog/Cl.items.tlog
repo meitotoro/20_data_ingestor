@@ -1,5 +1,3 @@
-D:\c++projects\Drivers\Drivers\BeidouDataGenerator.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\BeidouDataGenerator.obj
-D:\c++projects\Drivers\Drivers\BeidouDataSender.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\BeidouDataSender.obj
 D:\c++projects\Drivers\Drivers\BeidouParser.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\BeidouParser.obj
 D:\c++projects\Drivers\Drivers\BeidouStorage.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\BeidouStorage.obj
 D:\c++projects\Drivers\Drivers\DataProcessingServer.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\DataProcessingServer.obj
@@ -13,5 +11,7 @@ D:\c++projects\Drivers\Drivers\ProtocolForwarder.cpp;D:\c++projects\Drivers\Driv
 D:\c++projects\Drivers\Drivers\SatcomPDXPParser.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\SatcomPDXPParser.obj
 D:\c++projects\Drivers\Drivers\SerialDevice.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\SerialDevice.obj
 D:\c++projects\Drivers\Drivers\StorageRouter.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\StorageRouter.obj
+D:\c++projects\Drivers\Drivers\WindowsUdpIO.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\WindowsUdpIO.obj
+D:\c++projects\Drivers\Drivers\x64\Debug\qt\moc\moc_WindowsUdpIO.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\moc_WindowsUdpIO.obj
 D:\c++projects\Drivers\Drivers\x64\Debug\qt\moc\moc_LinuxSerialIO.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\moc_LinuxSerialIO.obj
 D:\c++projects\Drivers\Drivers\x64\Debug\qt\moc\moc_LinuxUdpIO.cpp;D:\c++projects\Drivers\Drivers\x64\Debug\moc_LinuxUdpIO.obj

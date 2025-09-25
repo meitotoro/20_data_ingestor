@@ -1,0 +1,42 @@
+﻿   Qt/MSBuild: 3.4.1.0
+  Reading Qt configuration (C:/qt/5.15.2/msvc2019_64/bin/qmake)
+   Qt: 5.15.2
+  BeidouDataGenerator.cpp
+  BeidouDataSender.cpp
+  BeidouParser.cpp
+  BeidouStorage.cpp
+  DataProcessingServer.cpp
+  DeviceFactory.cpp
+  EthernetDevice.cpp
+  LinuxSerialIO.cpp
+  LinuxUdpIO.cpp
+  main.cpp
+  ParserFactory.cpp
+  ProtocolForwarder.cpp
+  SatcomPDXPParser.cpp
+  SerialDevice.cpp
+  StorageRouter.cpp
+D:\c++projects\Drivers\Drivers\BeidouStorage.h(6,10): error C1083: 无法打开包括文件: “pqxx/pqxx”: No such file or directory
+  (编译源文件“BeidouStorage.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxSerialIO.h(5,10): error C1083: 无法打开包括文件: “qserialport.h”: No such file or directory
+  (编译源文件“LinuxSerialIO.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxUdpIO.h(5,10): error C1083: 无法打开包括文件: “QUdpSocket”: No such file or directory
+  (编译源文件“LinuxUdpIO.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxUdpIO.h(5,10): error C1083: 无法打开包括文件: “QUdpSocket”: No such file or directory
+  (编译源文件“BeidouDataSender.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxSerialIO.h(5,10): error C1083: 无法打开包括文件: “qserialport.h”: No such file or directory
+  (编译源文件“SerialDevice.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxSerialIO.h(5,10): error C1083: 无法打开包括文件: “qserialport.h”: No such file or directory
+  (编译源文件“EthernetDevice.cpp”)
+  
+D:\c++projects\Drivers\Drivers\BeidouStorage.h(6,10): error C1083: 无法打开包括文件: “pqxx/pqxx”: No such file or directory
+  (编译源文件“main.cpp”)
+  
+D:\c++projects\Drivers\Drivers\LinuxSerialIO.h(5,10): error C1083: 无法打开包括文件: “qserialport.h”: No such file or directory
+  (编译源文件“DeviceFactory.cpp”)
+  

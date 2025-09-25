@@ -69,9 +69,6 @@
     <Filter Include="DataProcessigServer">
       <UniqueIdentifier>{e531c194-087d-418d-a12e-f0111d3edb62}</UniqueIdentifier>
     </Filter>
-    <Filter Include="DataSender">
-      <UniqueIdentifier>{2d29d04b-4f66-438e-9bb8-f0f3ec5a7af7}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -113,11 +110,8 @@
     <ClCompile Include="SerialDevice.cpp">
       <Filter>DeviceManage\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BeidouDataGenerator.cpp">
-      <Filter>DataSender</Filter>
-    </ClCompile>
-    <ClCompile Include="BeidouDataSender.cpp">
-      <Filter>DataSender</Filter>
+    <ClCompile Include="WindowsUdpIO.cpp">
+      <Filter>PlatformIO\Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -169,18 +163,15 @@
     <ClInclude Include="SerialDevice.h">
       <Filter>DeviceManage\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BeidouDataGenerator.h">
-      <Filter>DataSender</Filter>
-    </ClInclude>
-    <ClInclude Include="BeidouDataSender.h">
-      <Filter>DataSender</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="LinuxUdpIO.h">
       <Filter>PlatformIO\Header Files</Filter>
     </QtMoc>
     <QtMoc Include="LinuxSerialIO.h">
+      <Filter>PlatformIO\Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WindowsUdpIO.h">
       <Filter>PlatformIO\Header Files</Filter>
     </QtMoc>
   </ItemGroup>
